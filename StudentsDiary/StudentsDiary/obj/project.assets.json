@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Business": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      },
+      "DataGenerators/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Business": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataGenerators.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataGenerators.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Business/1.0.0": {
+      "type": "project",
+      "path": "../Business/Business.csproj",
+      "msbuildProject": "../Business/Business.csproj"
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
+    "DataGenerators/1.0.0": {
+      "type": "project",
+      "path": "../DataGenerators/DataGenerators.csproj",
+      "msbuildProject": "../DataGenerators/DataGenerators.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Business >= 1.0.0",
+      "DataGenerators >= 1.0.0",
+      "Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dainius\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Programming\\CodeAcademy\\Projektai\\Tarpinis egzaminas\\Daumantas Garnys\\StudentsDiary\\StudentsDiary\\StudentsDiary\\StudentsDiary.csproj",
+      "projectName": "StudentsDiary",
+      "projectPath": "E:\\Programming\\CodeAcademy\\Projektai\\Tarpinis egzaminas\\Daumantas Garnys\\StudentsDiary\\StudentsDiary\\StudentsDiary\\StudentsDiary.csproj",
+      "packagesPath": "C:\\Users\\Dainius\\.nuget\\packages\\",
+      "outputPath": "E:\\Programming\\CodeAcademy\\Projektai\\Tarpinis egzaminas\\Daumantas Garnys\\StudentsDiary\\StudentsDiary\\StudentsDiary\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Dainius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "E:\\Programming\\CodeAcademy\\Projektai\\Tarpinis egzaminas\\Daumantas Garnys\\StudentsDiary\\StudentsDiary\\Business\\Business.csproj": {
+              "projectPath": "E:\\Programming\\CodeAcademy\\Projektai\\Tarpinis egzaminas\\Daumantas Garnys\\StudentsDiary\\StudentsDiary\\Business\\Business.csproj"
+            },
+            "E:\\Programming\\CodeAcademy\\Projektai\\Tarpinis egzaminas\\Daumantas Garnys\\StudentsDiary\\StudentsDiary\\DataGenerators\\DataGenerators.csproj": {
+              "projectPath": "E:\\Programming\\CodeAcademy\\Projektai\\Tarpinis egzaminas\\Daumantas Garnys\\StudentsDiary\\StudentsDiary\\DataGenerators\\DataGenerators.csproj"
+            },
+            "E:\\Programming\\CodeAcademy\\Projektai\\Tarpinis egzaminas\\Daumantas Garnys\\StudentsDiary\\StudentsDiary\\Services\\Services.csproj": {
+              "projectPath": "E:\\Programming\\CodeAcademy\\Projektai\\Tarpinis egzaminas\\Daumantas Garnys\\StudentsDiary\\StudentsDiary\\Services\\Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

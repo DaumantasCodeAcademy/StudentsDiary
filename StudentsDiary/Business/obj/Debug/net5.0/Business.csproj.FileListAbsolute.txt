@@ -1,0 +1,12 @@
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\bin\Debug\net5.0\Business.deps.json
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\bin\Debug\net5.0\Business.dll
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\bin\Debug\net5.0\ref\Business.dll
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\bin\Debug\net5.0\Business.pdb
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\obj\Debug\net5.0\Business.csproj.AssemblyReference.cache
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\obj\Debug\net5.0\Business.dll
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\obj\Debug\net5.0\ref\Business.dll
+E:\Programming\CodeAcademy\Projektai\Tarpinis egzaminas\Daumantas Garnys\StudentsDiary\StudentsDiary\Business\obj\Debug\net5.0\Business.pdb
